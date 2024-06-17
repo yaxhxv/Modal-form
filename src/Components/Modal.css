@@ -1,0 +1,13 @@
+.modal {
+    margin: 30px auto;
+    width: 25rem;
+    min-height: 19rem;
+    padding: 1rem;
+    border: 0;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: hsl(0 0% 0% / 10%) 0 0 0.5rem 0.25rem;
+  }
+  .modal::backdrop {
+    background: hsl(0 0% 0% / 50%);
+  }
